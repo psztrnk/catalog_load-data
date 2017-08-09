@@ -24,8 +24,8 @@
         $publisher_1 = explode(',',file_get_contents('lastnames.txt'))[rand(0,99)];
         $publisher_2 = explode(',',file_get_contents('lastnames.txt'))[rand(0,99)];
         $year = explode(',',file_get_contents('years.txt'))[rand(0,38)];
-        $genre_1 = explode(',',file_get_contents('genres.txt'))[rand(0,73)];
-        $genre_2 = explode(',',file_get_contents('genres.txt'))[rand(0,73)];
+        $genre_1 = explode(',',file_get_contents('genres.txt'))[rand(0,72)];
+        $genre_2 = explode(',',file_get_contents('genres.txt'))[rand(0,72)];
         $isbn = explode(',',file_get_contents('isbns.txt'))[rand(0,39)];
         $cover = explode(',',file_get_contents('covers.txt'))[rand(0,7)];
 
