@@ -19,7 +19,7 @@
         $title_1 = explode(',',file_get_contents('commonwords.txt'))[rand(0,299)];
         $title_2 = explode(',',file_get_contents('commonwords.txt'))[rand(0,299)];
         $title_3 = explode(',',file_get_contents('commonwords.txt'))[rand(0,299)];
-        $title_4 = explode(',',file_get_contents('lastnames.txt'))[rand(0,299)];
+        $title_4 = explode(',',file_get_contents('lastnames.txt'))[rand(0,99)];
         $title_5 = explode(',',file_get_contents('commonwords.txt'))[rand(0,299)];
         $publisher_1 = explode(',',file_get_contents('lastnames.txt'))[rand(0,99)];
         $publisher_2 = explode(',',file_get_contents('lastnames.txt'))[rand(0,99)];
